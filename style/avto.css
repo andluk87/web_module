@@ -1,5 +1,5 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
-@import "/style/avto-second.css";
+@import "avto-second.css";
 body {
     background: #EDF7FF;
     max-width: 900px;
