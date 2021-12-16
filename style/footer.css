@@ -1,0 +1,8 @@
+body {
+    background: rgb(98,184,255);
+    background: linear-gradient(0deg, rgba(98,184,255,1) 0%, rgba(204,232,255,1) 32%, rgba(237,247,255,1) 100%);
+}
+#text_footer {
+    color: #F6FAFF;
+    text-align: center;
+}

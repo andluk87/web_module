@@ -1,0 +1,16 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #EDF7FF;
+}
+#my_info {
+    /*width: 100%;*/
+    text-align: center;
+    color: #173955;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

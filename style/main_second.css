@@ -1,0 +1,64 @@
+h1 {
+    margin: 35px auto;
+    text-align: center;
+}
+.container__persona {
+    /*perspective: 1000px; !*"Удаленность" объекта от пользователя*!*/
+    width: 300px;
+    height: 300px;
+    margin: 0 15px;
+    /*display: inline-block;*/
+
+}
+.persona {
+    position: relative;
+    cursor: pointer; /*Изменение курсора*/
+    width: 300px;
+    height: 300px;
+    transition: 1s; /*Время на выполнение анимации*/
+    transform-style: preserve-3d; /*Определение 3D пространства для объекта*/
+}
+.container__persona:hover .persona {
+    transform: rotateY(180deg); /*Свойства transform - вращение по оси Y на 180 градусов*/
+}
+.persona__foto {
+    max-width: 300px;
+    height: 300px;
+    overflow: hidden;
+    z-index: 2; /*Расположение объекта по оси Z выше всех остальных - ближе к пользователю - над всеми остальными объектами*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden; /*Transparency стороны объекта*/
+    border-radius: 15px; /*Скругленные углы*/
+}
+.persona__info {
+    background-color: #EDF7FF;
+    width: 300px;
+    height: 300px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /*Расположеие по оси Z ниже, чем .persona__foto*/
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    border-radius: 15px;
+}
+.persona__info > h3 {
+    padding-top: 15px;
+    color: #1A3754;
+}
+.persona__info > a {
+    color: #1A3754;
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+}
+.persona__info > a > i {
+    color: #1A3754;
+    font-size: 32px;
+    display: block;
+    margin-bottom: 10px;
+}

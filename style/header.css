@@ -1,0 +1,22 @@
+body {
+    background: rgb(113,190,254);
+    background: linear-gradient(180deg, rgba(113,190,254,1) 0%, rgba(204,232,255,1) 47%, rgba(237,247,255,1) 100%);
+}
+
+.name_site {
+    color: #EDF7FF;
+    font-size: xxx-large;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 24px;
+    margin: 0 auto;
+    font-weight: 900;
+    text-shadow: 0 0 5px #EDF7FF,
+    0 0 10px #EDF7FF,
+    0 0 15px #EDF7FF,
+    0 0 20px #71befe,
+    0 0 35px #71befe;
+    /*0 0 40px #71befe;*/
+    /*0 0 50px #504d49;*/
+    /*0 0 75px #504d49;*/
+}

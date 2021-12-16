@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrap {
+    width: 200px;
+    height: 150px;
+    outline: 1px solid #000;
+    display: inline-block;
+    margin: 35px 50px;
+}
+.wrap > div {
+    width: 200px;
+    height: 150px;
+    background: rgba(144, 235, 242, 0.5); /*Значение transparency 0.5*/
+    display: inline-block;
+    position: relative;
+    z-index: 2; /*Расположение объекта в плоскости Z, т.е. 3D, т.е. всегда впереди, всегда сверху при значении 2*/
+    transition: transform 1s;
+}
+.wrap > div > span {
+    position: absolute;
+    top:45%;
+    width: 100%;
+    text-align: center;
+}
+.translateX:hover {
+    transform: translateX(50px); /*Перемещение по оси X на 50px*/
+}
+.translateY:hover {
+    transform: translateY(50px); /*Перемещение по оси Y на 50px вниз*/
+}
+.translate:hover {
+    transform: translate(50px, 50px); /*Перемещение по осям X и Y на 50px*/
+}
+.scaleX:hover {
+    transform: scaleX(-1); /*Масштабирование по оси X - в обратную сторону из-за отрицательного значения*/
+}
+.scaleY:hover {
+    transform: scaleY(-1); /*Масштабирование по оси X - в обратную сторону из-за отрицательного значения*/
+}
+.scaleX15:hover {
+    transform: scaleX(1.5); /*Масштабирование по оси X в 1.5 раза*/
+}
+.scale:hover {
+    transform: scale(1.5, 0.5); /*Масштабирование по обеим осям*/
+}
+.rotate:hover {
+    transform: rotate(360deg); /*Разворот на 360 градусов по час. стрелке*/
+}
+.skewX:hover {
+    transform: skewX(45deg); /*Наклон по оси X под углом 45 градусов*/
+}
+.skewY:hover {
+    transform: skewY(-45deg); /*Наклон по оси X под углом 45 градусов*/
+}
+.skew:hover {
+    transform: skew(-20deg, 20deg); /*Наклон по осям x и y*/
+}
+.matrix:hover {
+    transform: matrix(1.5,0,0.5,1.2,50,0); /*Масштабировать X в 1.5 раза, нулевой наклон по оси Y, наклон по оси X 0.5, масштабировать Y в 1.2 раза, переместить по оси X на 50px */
+}

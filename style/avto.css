@@ -1,0 +1,38 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+@import "/style/avto-second.css";
+body {
+    background: #EDF7FF;
+    max-width: 900px;
+    margin: 0 auto;
+}
+#mers {
+    width: 100%;
+    text-align: center;
+    color: #173955;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#my_info_text {
+    /*width: 100%;*/
+    /*text-align: center;*/
+    color: #173955;
+    font-style: italic;
+    /*font-size: xx-large;*/
+    /*font-weight: 900;*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+}
+#mers_img {
+     padding-bottom: 20px;
+}
+#mers_img img {
+    max-width: 400px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    margin-right: 0;
+}
+
+
